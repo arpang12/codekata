@@ -2,7 +2,7 @@
 int main()
 {
     int number;
-    printf(" ");
+    printf(" \n");
     scanf("%d",&number);
 
     // True if remainder is 0
