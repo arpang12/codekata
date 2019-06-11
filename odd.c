@@ -2,13 +2,13 @@
 int main()
 {
     int number;
-    printf("Enter an integer: ");
+    printf(" ");
     scanf("%d",&number);
 
     // True if remainder is 0
     if( number%2 == 0 )
-        printf("%d is an even integer.",number);
+        printf("even",number);
     else
-        printf("%d is an odd integer.",number);
+        printf("odd",number);
     return 0;
 }
